@@ -1,0 +1,114 @@
+/* Estilos gerais do corpo do documento */
+body {
+    background-color: #2F3645; /* Cor de fundo */
+    color: #EEEDEB; /* Cor do texto */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte padrão */
+    padding: 0; /* Sem padding interno */
+    margin: 0; /* Sem margem externa */
+}
+
+/* Estilos da barra de navegação */
+nav {
+    display: flex; /* Usa flexbox para alinhar itens */
+    justify-content: space-between; /* Espaço entre os itens */
+    list-style-type: none; /* Remove estilo de lista */
+    align-items: center; /* Alinha itens verticalmente */
+    padding: 20px; /* Preenchimento interno */
+    border-bottom: 1px solid #E6B9A6; /* Borda inferior */
+}
+
+/* Estilos da lista de navegação */
+nav ul {
+    display: flex; /* Usa flexbox para alinhar itens */
+    list-style-type: none; /* Remove estilo de lista */
+    align-items: center; /* Alinha itens verticalmente */
+}
+
+ul li {
+    margin-right: 60px; /* Margem entre os itens */
+}
+
+ul li a {
+    color: #EEEDEB; /* Cor dos links */
+}
+
+span{
+    color: #EEEDEB;
+    border: 1px solid #E6B9A6;
+    padding: 10px;
+}
+
+
+/* Centraliza elementos de texto */
+.center {
+    text-align: center; /* Alinha texto ao centro */
+}
+
+/* Centraliza conteúdo do container */
+.container {
+    text-align: center; /* Alinha conteúdo ao centro */
+}
+
+/* Estilos adicionais para container 2 */
+.container2 {
+    text-align: center; /* Alinha conteúdo ao centro */
+    padding: 3%; /* Preenchimento interno */
+}
+
+/* Estilos adicionais para cabeçalho */
+header {
+    text-align: center; /* Alinha texto ao centro */
+}
+
+strong {
+    color: #E6B9A6;
+}
+
+/* Estilos para imagens principais */
+main img {
+    width: 500px; /* Largura da imagem */
+    height: 500px; /* Altura da imagem */
+}
+
+/* Efeito de hover nos links de navegação */
+nav a:hover {
+    color: #939185; /* Cor do texto ao passar o mouse */
+} 
+
+/* Estilos para os botões de redes sociais */
+.social-buttons {
+    margin-top: 20px; /* Margem superior */
+}
+
+.social-button {
+    display: inline-block; /* Exibe como bloco inline */
+    padding: 10px 20px; /* Preenchimento interno */
+    margin: 5px; /* Margem externa */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #EEEDEB; /* Cor do texto */
+    text-align: center; /* Alinha texto ao centro */
+    text-decoration: none; /* Sem decoração de texto */
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.social-button.instagram {
+    background-color: #E6B9A6; /* Cor de fundo para o botão do Instagram */
+}
+
+.social-button.github {
+    background-color: #E6B9A6; /* Cor de fundo para o botão do Github */
+}
+
+.social-button:hover {
+    opacity: 0.8; /* Reduz a opacidade ao passar o mouse */
+    color: #EEEDEB; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center; /* Alinha texto ao centro */
+    padding: 20px; /* Preenchimento interno */
+    border-top: 1px solid #939185; /* Borda superior */
+    margin-top: 20px; /* Margem superior */
+}
